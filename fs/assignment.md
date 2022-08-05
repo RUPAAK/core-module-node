@@ -1,11 +1,14 @@
-Use File System Module
+**<h3>Use File System Module<h3>**
 
-Create a Folder
-Insert a file named 'aboutme.html' into the folder using async method. Give initial string : "<h2>This is Node Js class. Javascript is easy. I am a backend developer.</h2>"
+ - Create a Folder
+ - Insert a file named 'aboutme.html' into the folder using async
+   method. Give initial string : "This is Node Js class. Javascript
+   is easy. I am a backend developer." inside html h1 tag.
+ - Update the initial value to : "This is Node Js class. Javascript
+   is easy. I am a fullstack developer."
+ - Rename the file name to "index.html"
 
-Update the initial value to : "<h2>This is Node Js class. Javascript is easy. I am a fullstack developer.</h2>"
+  
+  
 
-Rename the file name to "index.html"
-
-
-> Extra :  Run it using live server.
+> Extra : Run it using live server.
