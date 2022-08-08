@@ -1,5 +1,5 @@
 // import runs the file
+const {firstData, secondaData}= require('./data')
 
-const dataValue = require("./data");
-
-console.log(dataValue)
+console.log(firstData)
+console.log(secondaData)

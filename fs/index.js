@@ -2,20 +2,24 @@
 
 const fs = require("fs");
 
+
 //Create a file using async method
 
-fs.writeFile("input.txt", "This is async modules", function (error) {
-  if (error) {
-    return console.error(error);
-  }
-  console.log("Async File Created Successfully");
-});
+
+// fs.writeFile("input.txt", "This is async modules", function (error) {
+//   if (error) {
+//     return console.error(error);
+//   }
+//   console.log("Async File Created Successfully");
+// });
 
 // console.log("Running...");
 
 //Create a file using sync method
 
-// fs.writeFileSync("sync.txt", "This is sync data", {});
+// fs.writeFileSync("sync.txt", "This is sync datas");
+
+// console.log("Running Here")
 
 //update file async
 // fs.appendFile("input.txt", ". I am appended", (err) => {
@@ -30,7 +34,7 @@ fs.writeFile("input.txt", "This is async modules", function (error) {
 
 //read file async
 
-// fs.readFile("input.txt", (err, data) => {
+// fs.readFile("input.txt", "utf-8", (err, data) => {
 //   if (err) return console.error(err);
 //   console.log(data);
 // });
@@ -38,14 +42,15 @@ fs.writeFile("input.txt", "This is async modules", function (error) {
 //read file sync
 
 // try {
-//   const data = fs.readFileSync("sync.txt", {encoding: "utf-8"});
+  // const data = fs.readFileSync("sync.txt", "utf-8");
+
+  // console.log(data)
 //   console.log(data);
 //   console.log(data.toSrting());
 
 // } catch (error) {
 //   console.error(error);
 // }
-
 
 // research rename and delete
 //delete file async

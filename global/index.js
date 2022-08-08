@@ -1,15 +1,18 @@
 //global object
 
-// console.log(global)
-
-// global.setTimeout(() => {
-//     console.log('hi')
-// }, 3000);
-
-
 // console.log(__dirname)
 // console.log(__filename)
 
 
-//gives error
-// console.log(document)
+
+// global.setTimeout(() => {
+//     console.log("I am global")
+// }, 5000);
+
+
+// console.log(__dirname)
+
+// console.log(__filename)
+
+
+console.log(global)

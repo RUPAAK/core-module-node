@@ -1,9 +1,19 @@
-const data = ["hi", "bye"];
+const data1 = ["hi", "bye", 5,8, true];
 
-const data2 = ["hi2", "bye2"];
+const data2 = ["rajesh", "hamal"];
 
 
-// console.log(data);
+module.exports = {
+    firstData: data1,
+    secondaData: data2
+}
 
-module.exports = data
-// module.exports = {data1: data};
+// const oj= {
+//     name: "Rupak"
+// }
+// oj.name
+
+// // console.log(data);
+
+// module.exports = data
+// // module.exports = {data1: data};
